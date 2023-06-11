@@ -1,0 +1,320 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+hr {
+    border-style: groove;
+}
+
+.top-brand {
+    font-size: smaller;
+}
+
+.nav-item:hover,
+.active {
+    background-color: rgb(26, 26, 26);
+}
+
+.featured {
+    max-width: 50vw;
+    height: 250pt;
+    /* object-fit: cover;
+    object-position: center;
+    overflow: hidden; */
+    /* z-index: 0; */
+    position: relative;
+}
+
+
+/* #featured{
+    z-index: 10;
+    position: relative;
+} */
+
+
+/* .pip{
+    width: 250pt;
+    height: auto;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 10;
+} */
+
+#close-sidebar {
+    position: relative;
+    left: 140pt;
+}
+
+
+/* #close-button{
+    position: fixed;
+    right: 5px;
+    bottom: 150pt;
+} */
+
+
+/* .displaynone{
+    display: none;
+}
+
+.displayinlineblock{
+    display: inline-block;
+} */
+
+.table-acara,
+.stream-thumbnail {
+    height: 250pt !important;
+}
+
+.table-acara {
+    overflow: auto;
+}
+
+#acara>thead>tr>th {
+    position: sticky;
+    top: 0px;
+}
+
+body>section.bg-dark.text-light>div>div>div.col-lg-5>div>iframe {
+    position: relative;
+    z-index: 0;
+}
+
+.promoAcaraContainer {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
+/* .promoAcara{
+    width: 160pt;
+    height: 120pt;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+} */
+
+.img-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+.feed-image {
+    width: 100%;
+    /* height: 100pt; */
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.feed-text {
+    font-size: small;
+    margin: 0.25rem 0;
+    color: #198754;
+}
+
+.map-location {
+    width: 100%;
+    height: 20rem;
+}
+
+.iklan {
+    width: 100%;
+    /* height: 225pt; */
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+
+.iklan-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logoarek-text {
+    vertical-align: middle;
+    font-size: x-large;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    z-index: -2;
+}
+
+.bg-arek {
+    background-color: rgb(3, 99, 0);
+}
+
+
+/* Scrolbar */
+
+
+/* width */
+
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+  } */
+
+
+/* Track */
+
+
+/* ::-webkit-scrollbar-track {
+    background: #f1f1f121;
+  } */
+
+
+/* Handle */
+
+
+/* ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 1vw;
+  } */
+
+
+/* Handle on hover */
+
+
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } */
+
+
+/* Swiper */
+
+.swiper {
+    width: 100%;
+    height: 120pt;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 160pt;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+/* berita */
+
+.author {
+    padding: 0 0 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* .figure{
+    width: 100%;
+}
+
+.figure-image{
+    width: inherit;
+} */
+
+.iklan-trending {
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.portal-image {
+    width: 25%;
+    height: 40pt;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.portal-text {
+    width: 70%;
+    vertical-align: top;
+}
+
+.berita-berita {
+    position: sticky;
+    bottom: 1px;
+}
+
+.trending {
+    position: sticky;
+    top: 1px;
+}
+
+
+/* Biro */
+
+.biro-caption-primary {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+.biro-location-primary,
+.biro-date-primary,
+.biro-date-secondary {
+    font-size: smaller;
+}
+
+.biro-location-primary {
+    background-color: black;
+    display: inline-block;
+    padding: 3px 7px;
+}
+
+.biro-thumbnail {
+    aspect-ratio: 16 / 10;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    .portal-text {
+        max-width: 60%;
+        font-size: 14px;
+    }
+}
+
+form {
+    width: 300px;
+}
